@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(#F4C2C2, #89CFF0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tracklist{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateY(-30px);
+}
+
+#tracklist h2{
+    padding: 0px;
+}
+
+#tracklist ol{
+    transform: translateY(-30px);
+}
+
+#music-player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateY(-60px);
+}
+
+#song-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#song-name{
+    color: white;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#song-artist{
+    color: white;
+}
+#music-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#music-buttons i{
+    padding: 10px;
+}
+
+#song-slider{
+    
+    accent-color: #F4C2C2;
+    width: 300px;
+    height: 5px;
+    
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+}

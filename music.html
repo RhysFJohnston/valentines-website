@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Our Songs</title>
+       <link rel="stylesheet" href="/styles/music-player.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+    
+    <h1>Our Songs</h1>
+
+    <div id="tracklist">
+        <h2>Tracklist</h2>
+        <ol>
+            <li>Bound 2 - Kanye West</li>
+            <li>You Belong With Me (Taylor's Version) - Taylor Swift</li>
+            <li>Cigarettes Out The Window - TV Girl</li>
+            <li>nuts - Lil Peep</li>
+            <li>Love Lost - Mac Miller</li>
+            <li>Congratulations - Mac Miller</li>
+            <li>Why I Love You - Kanye West & JAY-Z</li>
+            <li>Lovers Rock - TV Girl</li>
+            <li>we fell in love in october - girl in red</li>
+            <li>Real Love Song - Nothing But Thieves</li>
+        </ol>
+    </div>
+
+
+       <div id="music-player">
+           <img id="song-image" src="images/earl album cover.jpg"/>
+           <div id="song-name">Song</div>
+           <div id="song-artist">Artist</div>
+
+           <input id="song-slider" type="range">
+
+           <div id="music-buttons">
+               <i id="prev-song" class="fa-solid fa-backward-step fa-2x"></i>
+               <i id="playpause-song" class="fa-solid fa-circle-play fa-3x"></i>
+               <i id="next-song" class="fa-solid fa-forward-step fa-2x"></i>
+           </div>
+       </div>
+       <script src="music-player.js"></script>
+   </body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(#F4C2C2, #89CFF0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+/*Button Styles*/
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#music-button{
+    width: 200px;
+    height: 50px;
+}
+
+.button{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 50px;
+
+    color: white;
+    font-size: 16px;
+    background-color: #F4C2C2;
+
+    border-style: inset;
+    border-radius: 25px;
+    border-color: #89CFF0;
+    
+    text-decoration: none;
+}
+
+.button:hover{
+    border-radius: 25px;
+    box-shadow: 0 0 10px #F4C2C2;
+    text-shadow: 0 0 10px #F4C2C2;
+    margin-top: -3px;
+}
+/*End of Button Styles*/
+
